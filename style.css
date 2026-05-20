@@ -20,9 +20,7 @@ html {
 }
 
 
-/* =============================================
-   BODY
-   ============================================= */
+/* BODY*/
 
 body {
     font-family: 'Courier New', monospace;
@@ -34,9 +32,7 @@ body {
 }
 
 
-/* =============================================
-   TYPOGRAPHY
-   ============================================= */
+/* TYPOGRAPHY */
 
 h1 {
     font-family: 'Courier New', monospace;
@@ -94,9 +90,7 @@ table {
 }
 
 
-/* =============================================
-   UTILITY
-   ============================================= */
+/* UTILITY */
 
 .accent {
     color: #b5c840;
@@ -132,9 +126,7 @@ table {
 }
 
 
-/* =============================================
-   BADGES
-   ============================================= */
+/*BADGES*/
 
 .badge-drop {
     display: inline-block;
@@ -216,9 +208,7 @@ table {
 }
 
 
-/* =============================================
-   BUTTONS
-   ============================================= */
+/* BUTTONS */
 
 .btn-primary {
     display: inline-block;
@@ -301,9 +291,7 @@ table {
 }
 
 
-/* =============================================
-   HEADER AND NAVIGATION
-   ============================================= */
+/* HEADER AND NAVIGATION */
 
 header {
     background-color: #0d0d0d;
@@ -355,9 +343,7 @@ header nav ul li a.active {
 }
 
 
-/* =============================================
-   MAIN
-   ============================================= */
+/* MAIN */
 
 main {
     max-width: 1400px;
@@ -366,9 +352,7 @@ main {
 }
 
 
-/* =============================================
-   HERO SECTION
-   ============================================= */
+/* HERO SECTION */
 
 .hero {
     display: flex;
@@ -402,9 +386,7 @@ main {
 }
 
 
-/* =============================================
-   ANNOUNCEMENT STRIP
-   ============================================= */
+/* ANNOUNCEMENT STRIP */
 
 .strip {
     display: flex;
@@ -422,9 +404,7 @@ main {
 }
 
 
-/* =============================================
-   SECTION HEADER
-   ============================================= */
+/* SECTION HEADER */
 
 .section-header {
     display: flex;
@@ -434,9 +414,7 @@ main {
 }
 
 
-/* =============================================
-   PRODUCT GRID
-   ============================================= */
+/* PRODUCT GRID */
 
 .product-grid {
     display: grid;
@@ -472,18 +450,14 @@ main {
 }
 
 
-/* =============================================
-   FEATURED SECTION
-   ============================================= */
+/* FEATURED SECTION */
 
 .featured {
     padding: 60px 0;
 }
 
 
-/* =============================================
-   ABOUT SNIPPET
-   ============================================= */
+/* ABOUT SNIPPET */
 
 .about-snippet {
     display: flex;
@@ -506,9 +480,7 @@ main {
 }
 
 
-/* =============================================
-   LEGACY SECTION
-   ============================================= */
+/* LEGACY SECTION*/
 
 .legacy {
     display: flex;
@@ -542,9 +514,7 @@ main {
 }
 
 
-/* =============================================
-   WHY SHOP WITH US
-   ============================================= */
+/* WHY SHOP WITH US */
 
 .why-us {
     padding: 60px 0;
@@ -570,9 +540,7 @@ main {
 }
 
 
-/* =============================================
-   NEW ARRIVALS
-   ============================================= */
+/* NEW ARRIVALS */
 
 .new-arrivals {
     padding: 60px 0;
@@ -580,9 +548,7 @@ main {
 }
 
 
-/* =============================================
-   ENQUIRY CTA
-   ============================================= */
+/* ENQUIRY CTA */
 
 .enquiry-cta {
     display: flex;
@@ -604,9 +570,7 @@ main {
 }
 
 
-/* =============================================
-   NEWSLETTER
-   ============================================= */
+/* NEWSLETTER */
 
 .newsletter {
     background-color: #0d0d0d;
@@ -664,9 +628,7 @@ main {
 }
 
 
-/* =============================================
-   FOOTER
-   ============================================= */
+/* FOOTER */
 
 footer {
     background-color: #0d1100;
@@ -709,9 +671,7 @@ footer {
 }
 
 
-/* =============================================
-   PAGE HEADER
-   ============================================= */
+/* PAGE HEADER */
 
 .page-header {
     text-align: center;
@@ -739,9 +699,7 @@ footer {
 }
 
 
-/* =============================================
-   SHOP PAGE
-   ============================================= */
+/* SHOP PAGE */
 
 .search-section {
     padding: 24px 0 0;
@@ -829,9 +787,7 @@ footer {
 }
 
 
-/* =============================================
-   ABOUT PAGE
-   ============================================= */
+/* ABOUT PAGE */
 
 .about-hero {
     display: flex;
@@ -913,9 +869,7 @@ footer {
 }
 
 
-/* =============================================
-   HISTORY PAGE
-   ============================================= */
+/* HISTORY PAGE */
 
 .history-hero {
     text-align: center;
@@ -1015,9 +969,7 @@ footer {
 }
 
 
-/* =============================================
-   MAGAZINE PAGE
-   ============================================= */
+/*MAGAZINE PAGE */
 
 .mag-hero {
     display: flex;
@@ -1165,9 +1117,7 @@ footer {
 }
 
 
-/* =============================================
-   CONTACT PAGE
-   ============================================= */
+/* CONTACT PAGE */
 
 .contact-content {
     display: grid;
@@ -1242,9 +1192,7 @@ footer {
 }
 
 
-/* =============================================
-   PRODUCT DETAIL PAGE
-   ============================================= */
+/* PRODUCT DETAIL PAGE */
 
 .breadcrumb-bar {
     padding: 20px 0;
@@ -1367,9 +1315,118 @@ footer {
 }
 
 
-/* =============================================
-   SIZE GUIDE PAGE
-   ============================================= */
+/* GALLERY HEADER ON MAGAZINE PAGE */
+
+.gallery-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+
+/* GALLERY PAGE - SUPREME STYLE */
+
+.gallery-page {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-main {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 80px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-full-image {
+    width: 100%;
+    margin: 0;
+}
+
+.gallery-full-image img {
+    width: 100%;
+    border-radius: 0;
+    display: block;
+}
+
+.gallery-item-info {
+    width: 100%;
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-item-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.gallery-item-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #888888;
+    margin: 0;
+}
+
+.gallery-footer {
+    background-color: #111111;
+    padding: 20px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #2a2a2a;
+    position: sticky;
+    bottom: 0;
+}
+
+.gallery-logo {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.gallery-logo:hover {
+    color: #b5c840;
+}
+
+.gallery-footer-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.gallery-back {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 6px 16px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.gallery-back:hover {
+    background-color: #b5c840;
+    color: #111111;
+}
+
+
+/* SIZE GUIDE PAGE */
 
 .sizing-tips {
     padding: 60px 0;
@@ -1434,4 +1491,115 @@ footer {
 .size-chart tr:hover td {
     background-color: #1e2a00;
     color: #b5c840;
+}
+
+
+/* GALLERY HEADER ROW */
+
+.gallery-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+
+/*GALLERY FULL VIEW */
+
+.gallery-fullview {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.gallery-topbar {
+    padding: 30px 40px;
+}
+
+.gallery-logo {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.gallery-logo:hover {
+    color: #b5c840;
+}
+
+.gallery-image-area {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.gallery-image-area img {
+    max-height: 70vh;
+    max-width: 600px;
+    width: auto;
+    border-radius: 0;
+    object-fit: contain;
+}
+
+.gallery-bottombar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    border-top: 1px solid #222222;
+}
+
+.gallery-caption p {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #888888;
+    margin: 0;
+}
+
+.gallery-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-controls p {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #888888;
+    margin: 0;
+}
+
+.gallery-arrow {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    color: #888888;
+    text-decoration: none;
+}
+
+.gallery-arrow:hover {
+    color: #ffffff;
+}
+
+.gallery-back-btn {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #111111;
+    padding: 8px 20px;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.gallery-back-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
 }

@@ -309,11 +309,10 @@ header nav {
     margin: 0 auto;
 }
 
-.logo {
-    font-family: 'Courier New', monospace;
-    font-size: 1.4rem;
-    color: #b5c840;
-    font-weight: bold;
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
 }
 
 .logo:hover {
@@ -850,7 +849,7 @@ footer {
 }
 
 .about-hero figure img {
-    width: 100%;
+    width: 50%;
     border-radius: 6px;
 }
 
@@ -1389,7 +1388,7 @@ footer {
 
 .size-btn:hover {
     border-color: #b5c840;
-    color: #b5c840;
+    color: #b1c819;
 }
 
 .size-btn.active {
@@ -1520,13 +1519,18 @@ footer {
 }
 
 .gallery-full-image {
-    width: 100%;
+    width: 80%;
+    border-radius: 100;
+    border: #b5c840;
+    border-color: #b5c840;
     margin: 0;
 }
 
 .gallery-full-image img {
     width: 100%;
-    border-radius: 0;
+    border-radius: 100;
+    border: #b5c840;
+    border-color: #b5c840;
     display: block;
 }
 
@@ -1541,7 +1545,7 @@ footer {
 .gallery-item-title {
     font-family: 'Courier New', monospace;
     font-size: 0.85rem;
-    color: #ffffff;
+    color: #b5c840;
     margin: 0;
 }
 

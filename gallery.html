@@ -233,16 +233,28 @@
         </main>
 
         <!-- Gallery Footer -->
-        <footer class="gallery-footer">
-            <a href="index.html" class="logo">
-                <img src="images/HO95-Logo.png" alt="House of 95s Logo">
-            </a>
-            <p class="gallery-footer-title">House of 95s Gallery</p>
-            <a href="magazine.html" class="gallery-back">back</a>
-        </footer>
+<footer class="gallery-footer">
+    <p class="gallery-footer-title" id="gallery-slide-title">House of 95s Gallery</p>
+    <section class="gallery-controls">
+        <a href="#galleryCarousel" class="gallery-arrow" data-bs-target="#galleryCarousel" data-bs-slide="prev">←</a>
+        <p class="gallery-counter" id="gallery-counter">1 of 18</p>
+        <a href="#galleryCarousel" class="gallery-arrow" data-bs-target="#galleryCarousel" data-bs-slide="next">→</a>
+    </section>
+    <a href="magazine.html" class="gallery-back">back</a>
+</footer>
 
         <!-- Bootstrap JavaScript Bundle -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+    var carousel = document.getElementById('galleryCarousel');
+    var counter = document.getElementById('gallery-counter');
+    var total = document.querySelectorAll('.carousel-item').length;
+
+    carousel.addEventListener('slid.bs.carousel', function(e) {
+        counter.textContent = (e.to + 1) + ' of ' + total;
+    });
+</script>
 
     </body>
 </html>
